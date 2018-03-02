@@ -1,0 +1,73 @@
+body{
+	margin:0;
+	background-color: #2A2A2A;
+	font-family: 'Roboto'
+}
+header{
+	height: 60px;
+	text-align: center;
+	color: #FFF;
+
+}
+h3{
+	position: absolute;
+	color: #FFF;
+	margin-left: 2%;
+}
+
+
+		/*wrapper*/				/*wrapper*/
+.wrapper{
+	padding: 1% 20% 1% 20%;
+	display:grid;
+	grid-template-columns:repeat(1, 1fr);
+	grid-gap:1em;
+	margin-bottom: 10%;
+}
+.box{
+	background-color: #282726;
+	padding: 1em;
+	border-radius: 10px;
+	color:white;
+}
+.box i{
+	font-size: 14px;
+}
+
+
+.wrapper a{
+	text-decoration: none;
+}
+
+
+
+/*Responsiviteit*/
+
+/* Tablet Landscape */
+
+@media screen and (max-width: 1060px) {
+
+
+}
+/* Tabled Portrait */
+
+
+@media screen and (max-width: 930px) {
+
+.wrapper{
+	padding: 1% 10% 1% 10%;
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	grid-gap:1em;}
+}
+@media screen and (max-width: 600px) {
+.wrapper{
+	padding: 1% 10% 1% 10%;
+	display:grid;
+	grid-template-columns:repeat(1, 1fr);
+	grid-gap:1em;}
+}
+
+
+
+
